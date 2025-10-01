@@ -1,0 +1,55 @@
+{
+  "name": "vocabulary-learning-app",
+  "version": "1.0.0",
+  "description": "Ứng dụng học từ vựng với React và Firebase",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "start": "npm run dev",
+    "type-check": "tsc --noEmit",
+    "clean": "rm -rf dist node_modules/.vite",
+    "reset": "npm run clean && npm install",
+    "dev:host": "vite --host 0.0.0.0",
+    "dev:port": "vite --port 3000"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "lucide-react": "^0.400.0",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.0.0",
+    "tailwind-merge": "^2.0.0",
+    "sonner": "^1.4.0",
+    "react-hook-form": "^7.55.0",
+    "firebase": "^10.7.1",
+    "react-router-dom": "^6.20.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.43",
+    "@types/react-dom": "^18.2.17",
+    "@typescript-eslint/eslint-plugin": "^6.14.0",
+    "@typescript-eslint/parser": "^6.14.0",
+    "@vitejs/plugin-react": "^4.2.1",
+    "eslint": "^8.55.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.5",
+    "typescript": "^5.2.2",
+    "vite": "^5.0.8",
+    "@tailwindcss/vite": "^4.0.0-alpha.20",
+    "tailwindcss": "^4.0.0-alpha.20"
+  },
+  "keywords": [
+    "react",
+    "typescript",
+    "vocabulary",
+    "learning",
+    "flashcard",
+    "quiz",
+    "education"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
