@@ -1,4 +1,4 @@
-  ## Running the code
+  ## Vocabulary Learning App
   Ứng dụng học Tiếng Anh trên điện thoại di động
   
   ## Running the code
